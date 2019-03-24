@@ -1,0 +1,156 @@
+body{
+	font-family: trebuchet ms, ariel, helvetical;
+	line-height: 1.5em;
+	background: #f4f4f4;
+	font-size: 17px;
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/*Global*/
+header .highlight, header #current a{
+	color:#e8491d;
+}
+header{
+	background:#354249;
+	padding-top:10px;
+	border-bottom: 3px solid #e8491d;
+}
+header h1{
+	float: left;
+	color:#ffffff;
+	padding-left: 10px;
+}
+#navbar{
+	float: right;
+	padding-right: 20px;
+}
+#navbar ul{
+	padding-top: 5px;
+	list-style: none;
+}
+#navbar li{
+	padding-right: 20px;
+	display:inline;
+}
+#navbar a{
+	text-decoration: none;
+	color:#ffffff;
+	font-size: 18px;
+}
+#navbar a:hover{
+	color:gray;
+}
+.showcase{
+	background:url("../img/car4.jpg") no-repeat 0 -500px; /*<--margin-top*/
+	min-height: 300px;
+	background-position: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#branding h1{
+	margin-top:90px;
+	color: #e8491d;
+	font-size:46px;
+	text-align: center;
+}
+#branding  p{
+	text-align: center;
+	color: #ffffff;
+	font-weight:bolder;
+}
+#weber{
+	height: 300px;
+	background:rgba(100,150,200,.4);
+}
+#newsletter{
+	background:#354249;
+	color: #ffffff;
+}
+#newsletter h3{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top:17px;
+	margin-right:25px;
+}
+#newsletter input[type="email"]{
+	padding:4px;
+	width: 250px;
+	height: 15px;
+}
+.button{
+	height: 26px;
+	background:#e8491d;
+	color:#ffffff;
+}
+#boxes{
+	margin:20px;
+}
+#boxes .box{
+	float: left;
+	width:30%;
+	padding: 15px;
+	text-align: center;
+	box-shadow:5px 5px 5px gray;
+}
+#boxes .box:first-child{
+	margin-right: 8px;
+}
+/*column*/
+#column{
+	width: 55%;
+	float: left;
+	background:#e6e6e6;
+	font-weight:bolder;
+	margin-top:10px;
+	padding:5px;
+}
+/*sidebar*/
+#sidebar{
+	float:right;
+	width: 33%;
+	margin:10px;
+	background:#35424a;
+	color:#ffffff;
+	padding:5px;
+}
+/*footer*/
+#services li{
+	list-style: none;
+	padding: 20px;
+	border:1px solid #cccccc;
+	background:#e6e6e6;
+	margin-bottom:10px;
+	margin-right:40px;
+}
+footer{
+	background:#e8491d;
+	text-align: center;
+	padding:15px;
+}
+/*Media Queries*/
+@media screen and (max-width: 768px){
+	header h1, #navbar ul a, .showcase#brandingboxes.box,{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.showcase#branding{
+		float: none;
+	}
+	header{
+		padding-bottom: 20px;
+	}
+	#branding h1{
+		margin-top: 40px;
+	}
+}
+
+
+
